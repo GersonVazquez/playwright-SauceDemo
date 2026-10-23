@@ -17,7 +17,7 @@ npx playwright test
 
 ## Casos cubiertos
 
-- [ ] Login con usuario valido
+- [x] Login con usuario valido
 - [ ] Login con usuario bloqueado
 - [ ] Agregar producto al carrito
 - [ ] Checkout completo

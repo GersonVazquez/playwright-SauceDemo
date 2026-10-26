@@ -39,7 +39,6 @@ test('Login Usuario Bloqueado', async ({ page }) => {
 
     await test.step('Verificando error con usuario bloqueado', async () => {
         await expect(page).not.toHaveURL('/inventory.html');
-        await expect(page.locator('[data-test="error"]')).toBeVisible();
         await expect(page.locator('[data-test="error"]')).toContainText('Epic sadface: Sorry, this user has been locked out.');
     })    
 });

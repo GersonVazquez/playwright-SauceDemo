@@ -20,4 +20,4 @@ npx playwright test
 - [x] Login con usuario valido
 - [x] Login con usuario bloqueado
 - [x] Agregar producto al carrito
-- [ ] Checkout completo
+- [x] Checkout completo

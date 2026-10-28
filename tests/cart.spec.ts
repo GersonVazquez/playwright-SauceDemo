@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const userName = 'standard_user';
 const password = 'secret_sauce';
 const addCart = 'add-to-cart-sauce-labs-';
-const items = ["backpack", "bike-light", "bolt-t-shirt", "fleece-jacket", "onesie" ];
+const items = ["backpack", "bike-light", "bolt-t-shirt", "fleece-jacket", "onesie"];
 
 test('Dado que agrego items al carrito', async ({ page }) => {
     await test.step('Entrando en la web', async () => {

@@ -19,5 +19,5 @@ npx playwright test
 
 - [x] Login con usuario valido
 - [x] Login con usuario bloqueado
-- [ ] Agregar producto al carrito
+- [x] Agregar producto al carrito
 - [ ] Checkout completo
